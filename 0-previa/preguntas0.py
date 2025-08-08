@@ -262,7 +262,7 @@ respuestas[(1,6,"Marginal")] = [
 respuestas[(1,7,"Condicional")] = [
 0, # 0. P(Y=1|X=1): 1/2
 0, # 1. P(Y=1|X=1): 1/3
-1 # 2. P(Y=1|X=1): 2/3
+0,5 # 2. P(Y=1|X=1): 2/3
 0, # 3. P(Y=1|X=1): 1/4
 0, # 4. P(Y=1|X=1): 2/4
 0, # 5. P(Y=1|X=1): 3/4
@@ -273,7 +273,7 @@ respuestas[(1,7,"Condicional")] = [
 0, # 10. P(Y=1|X=1): 1/6
 0, # 11. P(Y=1|X=1): 2/6
 0, # 12. P(Y=1|X=1): 3/6
-0, # 13. P(Y=1|X=1): 4/6
+0,5 # 13. P(Y=1|X=1): 4/6
 0, # 14. P(Y=1|X=1): 5/6
 0, # 15. Ninguna de las anteriores
 "Justifique brevemente.",
@@ -294,8 +294,8 @@ respuestas[(1,7,"Condicional")] = [
 
 # %%
 respuestas[(1,8,"Overfitting")] = [
-0,5 # 0. No
-0,5 # 1. Si
+0,7 # 0. No
+0,3 # 1. Si
 "",
 ]
 
@@ -392,10 +392,11 @@ respuestas[(1,11,"Diversificación")] = [
 
 # %%
 respuestas[(1,12,"Apuesta individual")] = [
-0,5 # 0. No
-0,5 # 1. Sí
+0,6 # 0. No
+0,4 # 1. Sí
 "Justifique brevemente.",
-#No lo sé 
+#No lo sé. La esperanza no me asegura que gane siempre, sino que en general voy a ganar. Y si en cada tirada estoy apostando
+#todos mis recursos, es riesgoso.
 ]
 
 # %% [markdown]
@@ -417,8 +418,8 @@ respuestas[(1,12,"Apuesta individual")] = [
 # %%
 respuestas[(1,13,"Fondo común")] = [
 0,2 # 0. Empeora
-0,4 # 1. Neutro
-0,4 # 1. Mejora
+0,2 # 1. Neutro
+0,6 # 1. Mejora
 "Justifique brevemente.",
 #Yo creería que mejora nuestra tasa de crecimiento
 ]
